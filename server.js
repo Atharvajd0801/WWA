@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const app = express()
 
-const apiKey = '481cf26a14de1f2c3f98e181a3e074f7';
+const apiKey = 'openweather-apikey';
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
